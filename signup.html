@@ -32,24 +32,36 @@
       <h3>Enter your information</h3>
     </header>
     <form action="signup.html" method="post">
-      <label for="name">Full name</label>
-            <input type="text" id="name" autofocus>
-            <button type="submit">Submit</button>
-
-    </form>
-      </section>
-      <footer>
-        Doug Bradley
-        DGMDE-20
-        Assignment 3
-        Due 11/18/2016
-      </footer>
-      <!-- javascript -->
-      <script
-      src="https://code.jquery.com/jquery-3.1.1.min.js"
-      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-      crossorigin="anonymous">
-      </script>
-      <script src="assignement3.js"></script>
-    </body>
-    </html>
+      <div>
+        <label for="name">Full name</label>
+        <input class="formtext" type="text" id="name" autofocus>
+      </div>
+      <div>
+        <label for="email">Email address</label>
+        <input  class="formtext" type="email" id="email">
+        <div>
+          <label for="alerts">Receive SMS Alerts</label>
+          <input type="checkbox" id="alerts">
+        </div>
+        <div>
+          <label for="phone">Phone number</label>
+          <input class="formtext" type="tel" id="phone">
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <footer>
+      Doug Bradley
+      DGMDE-20
+      Assignment 3
+      Due 11/18/2016
+    </footer>
+    <!-- javascript -->
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous">
+    </script>
+    <script src="assignement3.js"></script>
+  </body>
+  </html>

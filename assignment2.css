@@ -123,6 +123,10 @@ table caption {
 	padding-top: 1em;
 	font-size: 1.25em;
 }
+.formtext {
+    width: 20em;
+		margin: 0.5em;
+}
 footer {
 	font-style: italic;
 	padding-top: 1.5em;
