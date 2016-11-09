@@ -35,10 +35,12 @@
       <div>
         <label for="name">Full name</label>
         <input class="formtext" type="text" id="name" autofocus>
+        <span id="name_error" class="error"></span>
       </div>
       <div>
         <label for="email">Email address</label>
         <input  class="formtext" type="email" id="email">
+        <span id="email_error" class="error"></span>
         <div>
           <label for="alerts">Receive SMS Alerts</label>
           <input type="checkbox" id="alerts">
@@ -47,7 +49,17 @@
           <label for="phone">Phone number</label>
           <input class="formtext" type="tel" id="phone">
         </div>
+        <div>
+          <label for="atlantic">Atlantic Division News</label>
+          <input type="checkbox" id="atlantic">
+        </div>
+        <div>
+          <label for="coastal">Coastal Division News</label>
+          <input type="checkbox" id="coastal">
+        </div>
+        <div id="submit_div">
         <button type="submit">Submit</button>
+      </div>
       </form>
     </section>
     <footer>
@@ -62,6 +74,6 @@
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous">
     </script>
-    <script src="assignement3.js"></script>
+    <script src="assignment3.js"></script>
   </body>
   </html>

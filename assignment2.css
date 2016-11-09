@@ -127,6 +127,12 @@ table caption {
     width: 20em;
 		margin: 0.5em;
 }
+.error {
+	color: red;
+}
+#submit_div {
+	margin-top: 2em;
+}
 footer {
 	font-style: italic;
 	padding-top: 1.5em;
