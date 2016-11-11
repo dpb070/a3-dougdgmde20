@@ -108,6 +108,10 @@ section table {
 .rh_section {
 	float: left;
 }
+.signup_section {
+	width: 100%;
+}
+
 td, th {
 	text-align: left;
 	padding-left: 0.25em;
