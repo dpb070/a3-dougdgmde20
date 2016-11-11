@@ -27,7 +27,7 @@
     <h2>Sign up for Alerts and News </h2>
   </header>
   <a id="main-content"></a>
-  <section class="signup_section">
+  <section id="signup_section">
     <header>
       <h3>Enter your information</h3>
     </header>
@@ -42,40 +42,47 @@
         <input  class="formtext" type="email" id="email">
         <span id="email_error" class="error"></span>
       </div>
-        <div>
-          <label for="alerts">Receive SMS Alerts</label>
-          <input type="checkbox" id="alerts">
-          <span id="sms_disclaimer" class="info"></span>
-        </div>
-        <div>
-          <label for="phone">Phone number</label>
-          <input class="formtext" type="tel" id="phone">
-        </div>
-        <div>
-          <label for="atlantic">Atlantic Division News</label>
-          <input type="checkbox" id="atlantic">
-        </div>
-        <div>
-          <label for="coastal">Coastal Division News</label>
-          <input type="checkbox" id="coastal">
-        </div>
-        <div id="submit_div">
-          <button type="submit">Submit</button>
-        </div>
-      </form>
-    </section>
-    <footer>
-      Doug Bradley
-      DGMDE-20
-      Assignment 3
-      Due 11/18/2016
-    </footer>
-    <!-- javascript -->
-    <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous">
-    </script>
-    <script src="assignment3.js"></script>
-  </body>
-  </html>
+      <div>
+        <label for="alerts">Receive SMS Alerts</label>
+        <input type="checkbox" id="alerts">
+      </div>
+      <div>
+        <label for="phone">Phone number</label>
+        <input class="formtext" type="tel" id="phone">
+      </div>
+      <div>
+        <label for="atlantic">Atlantic Division News</label>
+        <input type="checkbox" id="atlantic">
+      </div>
+      <div>
+        <label for="coastal">Coastal Division News</label>
+        <input type="checkbox" id="coastal">
+      </div>
+      <div id="submit_div">
+        <button type="submit" id="form_submit">Submit</button>
+      </div>
+    </form>
+  </section>
+  <section id="agreement_section">
+    <button type="button" id="agreement_button">Agreement Terms</button>
+    <ul id="agreement_terms">
+      <li>In addition to news, we may send promotional emails to you</li>
+      <li>Your mobile carrier's standard text message rates apply for alerts</li>
+      <li>We will not share your email address or phone number with anyone</li>
+    </ul>
+  </section>
+  <footer>
+    Doug Bradley
+    DGMDE-20
+    Assignment 3
+    Due 11/18/2016
+  </footer>
+  <!-- javascript -->
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous">
+  </script>
+  <script src="assignment3.js"></script>
+</body>
+</html>

@@ -108,10 +108,13 @@ section table {
 .rh_section {
 	float: left;
 }
-.signup_section {
+#signup_section {
 	width: 100%;
 }
-
+#agreement_section {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
 td, th {
 	text-align: left;
 	padding-left: 0.25em;
@@ -137,6 +140,7 @@ table caption {
 #submit_div {
 	margin-top: 2em;
 }
+
 footer {
 	font-style: italic;
 	padding-top: 1.5em;

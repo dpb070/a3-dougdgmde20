@@ -2,6 +2,40 @@ $(document).ready(function(){
   // Doug Bradley
   // DGMDE20 - Assignment 3
 
+$('#coastal_table').fadeTo("fast",0.80);
+$('#atlantic_table').fadeTo("fast",0.80);
+
+$('#atlantic_table').hover(
+  function() {
+    $('#atlantic_table').fadeTo("fast",1.0);
+    $('#coastal_table').fadeTo("fast", 0.50)
+  },
+  function() {
+    $('#coastal_table').fadeTo("fast",0.80);
+    $('#atlantic_table').fadeTo("fast",0.80);
+  }
+)
+
+$('#coastal_table').hover(
+  function() {
+    $('#coastal_table').fadeTo("fast",1.0);
+    $('#atlantic_table').fadeTo("fast", 0.50)
+  },
+  function() {
+    $('#coastal_table').fadeTo("fast",0.80);
+    $('#atlantic_table').fadeTo("fast",0.80);
+  }
+)
+  $('tr').hover(
+    function () {
+      $(this).css("background","yellow");
+    },
+    function () {
+      $(this).css("background","");
+    }
+  );
+
+
 
   // phone field enable/disable from alerts checkbox
   $('#phone').prop( 'disabled', true );
@@ -14,10 +48,26 @@ $(document).ready(function(){
     };
   });
 
+  // show/hide terms (for click event, two action, outside of form requirement)
+  // the two actions are terms appear and button label text toggles
+  var termState = 0;
+  $('#agreement_terms').hide();
+  $('#agreement_button').html('Show agreement terms');
+  $('#agreement_button').click(function(){
+    $('#agreement_terms').toggle();
+    if (termState == 0) {
+      termState = 1;
+      $('#agreement_button').html('Hide agreement terms');
+    }
+    else {
+      termState = 0;
+      $('#agreement_button').html('Show agreement terms');
+    }
+  });
 
 
   // Submit processing
-  $('button').click(function(submit){
+  $('#form_submit').click(function(submit){
     // Clear any error messages from previous failed submits
     $('#name_error').html('');
     $('#email_error').html('');
