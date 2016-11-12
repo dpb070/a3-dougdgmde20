@@ -6,7 +6,7 @@ $(document).ready(function(){
   $('#coastal_table').fadeTo("fast",0.80);  // 0.80 = normal slightly dimmed state
   $('#atlantic_table').fadeTo("fast",0.80);
 
-  // brighten atlantic table
+  // brighten atlantic table on hover
   $('#atlantic_table').hover(
     function() {
       $('#atlantic_table').fadeTo("fast",1.0);  //brightened
@@ -18,7 +18,7 @@ $(document).ready(function(){
     }
   )
 
-  // brighten coastal table
+  // brighten coastal table on hover
   $('#coastal_table').hover(
     function() {
       $('#coastal_table').fadeTo("fast",1.0);    // brightened
@@ -26,7 +26,7 @@ $(document).ready(function(){
     },
     function() {
       $('#coastal_table').fadeTo("fast",0.80);  // return to normal
-      $('#atlantic_table').fadeTo("fast",0.80); 
+      $('#atlantic_table').fadeTo("fast",0.80);
     }
   )
 
@@ -37,6 +37,16 @@ $(document).ready(function(){
     },
     function () {
       $(this).css("font-weight","");
+    }
+  );
+
+  // addtionally change color of last row when hovering
+  $('tbody tr:last-child').hover(
+    function () {
+      $(this).css( "color", "red" );
+    },
+    function () {
+      $(this).css( "color", "" );
     }
   );
 

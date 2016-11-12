@@ -6,13 +6,13 @@ The line numbers for two HTML5 form elements are: lines 42 (email) and 51 (tel)
 My two jQuery-driven interactive elements in the form include: Checkbox (field toggling) and Submit button (validation)
 Located at this HTML URL: http://a3.dougdgmde20.host/signup.html
 The line numbers in the JavaScript file where this code is found are: file=assignment3.js
-  Checkbox related field toggling:  lines 44 through 52
-  Submit processing validation and effects:  lines 72 through 97
+  Checkbox related field toggling:  lines 54 through 62
+  Submit processing validation and effects:  lines 82 through 107
 
 My site’s click effect is:  A button that exposes/hides some text.  The two actions are the button label toggles
 and the text visibility toggles.
 Located at this HTML URL: http://a3.dougdgmde20.host/signup.html
-The line numbers in the JavaScript file where this code is found are: lines 56 through 69
+The line numbers in the JavaScript file where this code is found are: lines 66 through 79
 
 My site’s hover effect is:  A "brightening" of a table receiving the hover (first action) and dimming of
 another simliar table on the same page (second action).
@@ -21,11 +21,11 @@ The line numbers in the JavaScript file where this code is found are: lines 10 t
 
 My if/else choice is:  combined with the checkbox/field toggling from above
 Located at this HTML URL: http://a3.dougdgmde20.host/signup.html
-The line numbers in the JavaScript file where this code is found are: lines 44 through 52
+The line numbers in the JavaScript file where this code is found are: lines 54 through 62
 
-My effect that requires filtering the results is ____
-Located at this HTML URL: ____
-The line numbers in the JavaScript file where this code is found are: ______
+My effect that requires filtering the results is: The text of a table's last row is changed to red on hover
+Located at this HTML URL: http://a3.dougdgmde20.host/standings.html
+The line numbers in the JavaScript file where this code is found are: line 44 through 51
 
 Two more effects of my choice are:  slightly dimming two table elements when the page is loaded
 (in preparation for further emphasis processing) and highlighting table rows on hover.
