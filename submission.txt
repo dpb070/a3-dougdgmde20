@@ -1,0 +1,47 @@
+Part 1
+
+The <form> tag is located at this HTML URL: http://a3.dougdgmde20.host/signup.html on line numbers: 34 through 64
+The line numbers for two HTML5 form elements are: lines 42 (email) and 51 (tel)
+
+My two jQuery-driven interactive elements in the form include: Checkbox (field toggling) and Submit button (validation)
+Located at this HTML URL: http://a3.dougdgmde20.host/signup.html
+The line numbers in the JavaScript file where this code is found are: file=assignment3.js
+  Checkbox related field toggling:  lines 44 through 52
+  Submit processing validation and effects:  lines 72 through 97
+
+My site’s click effect is:  A button that exposes/hides some text.  The two actions are the button label toggles
+and the text visibility toggles.
+Located at this HTML URL: http://a3.dougdgmde20.host/signup.html
+The line numbers in the JavaScript file where this code is found are: lines 56 through 69
+
+My site’s hover effect is:  A "brightening" of a table receiving the hover (first action) and dimming of
+another simliar table on the same page (second action).
+Located at this HTML URL: http://a3.dougdgmde20.host/standings.html
+The line numbers in the JavaScript file where this code is found are: lines 10 through 31
+
+My if/else choice is:  combined with the checkbox/field toggling from above
+Located at this HTML URL: http://a3.dougdgmde20.host/signup.html
+The line numbers in the JavaScript file where this code is found are: lines 44 through 52
+
+My effect that requires filtering the results is ____
+Located at this HTML URL: ____
+The line numbers in the JavaScript file where this code is found are: ______
+
+Two more effects of my choice are:  slightly dimming two table elements when the page is loaded
+(in preparation for further emphasis processing) and highlighting table rows on hover.
+Located at this HTML URL:   http://a3.dougdgmde20.host/standings.html
+The line numbers in the JavaScript file where this code is found are:
+  lines 6 through 7 = page load dimming
+  lines 34 through 41 = row highlighting on hover
+
+Part 2
+
+The <canvas> element on my site occurs at this HTML URL: ____
+A button that, when clicked, clears the entire canvas or part of the canvas
+The line numbers in the JavaScript file where this code is found are: ______
+At least two different elements drawn on the canvas when a button is clicked
+The line numbers in the JavaScript file where this code is found are: _____
+Chaining methods
+The line numbers in the JavaScript file where this code is found are: ______
+A form element on the page that accepts some kind of user input
+The line numbers in the JavaScript file where this code is found are: ______

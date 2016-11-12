@@ -2,40 +2,43 @@ $(document).ready(function(){
   // Doug Bradley
   // DGMDE20 - Assignment 3
 
-$('#coastal_table').fadeTo("fast",0.80);
-$('#atlantic_table').fadeTo("fast",0.80);
+  // initialize tables to intermediate brightness
+  $('#coastal_table').fadeTo("fast",0.80);  // 0.80 = normal slightly dimmed state
+  $('#atlantic_table').fadeTo("fast",0.80);
 
-$('#atlantic_table').hover(
-  function() {
-    $('#atlantic_table').fadeTo("fast",1.0);
-    $('#coastal_table').fadeTo("fast", 0.50)
-  },
-  function() {
-    $('#coastal_table').fadeTo("fast",0.80);
-    $('#atlantic_table').fadeTo("fast",0.80);
-  }
-)
+  // brighten atlantic table
+  $('#atlantic_table').hover(
+    function() {
+      $('#atlantic_table').fadeTo("fast",1.0);  //brightened
+      $('#coastal_table').fadeTo("fast", 0.50)  // dimmed
+    },
+    function() {
+      $('#coastal_table').fadeTo("fast",0.80);  //return to normal
+      $('#atlantic_table').fadeTo("fast",0.80);
+    }
+  )
 
-$('#coastal_table').hover(
-  function() {
-    $('#coastal_table').fadeTo("fast",1.0);
-    $('#atlantic_table').fadeTo("fast", 0.50)
-  },
-  function() {
-    $('#coastal_table').fadeTo("fast",0.80);
-    $('#atlantic_table').fadeTo("fast",0.80);
-  }
-)
+  // brighten coastal table
+  $('#coastal_table').hover(
+    function() {
+      $('#coastal_table').fadeTo("fast",1.0);    // brightened
+      $('#atlantic_table').fadeTo("fast", 0.50)  // dimmed
+    },
+    function() {
+      $('#coastal_table').fadeTo("fast",0.80);  // return to normal
+      $('#atlantic_table').fadeTo("fast",0.80); 
+    }
+  )
+
+  // emphasize row when hovering
   $('tr').hover(
     function () {
-      $(this).css("background","yellow");
+      $(this).css("font-weight","bold");
     },
     function () {
-      $(this).css("background","");
+      $(this).css("font-weight","");
     }
   );
-
-
 
   // phone field enable/disable from alerts checkbox
   $('#phone').prop( 'disabled', true );
@@ -64,7 +67,6 @@ $('#coastal_table').hover(
       $('#agreement_button').html('Show agreement terms');
     }
   });
-
 
   // Submit processing
   $('#form_submit').click(function(submit){
