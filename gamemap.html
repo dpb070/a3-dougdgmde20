@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Doug Bradley -->
+  <!-- DGMDE20  -->
+  <!-- Assignment 3 -->
+  <meta charset="UTF-8">
+  <title>ACC College Football Week 6</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  <link href="assignment3.css" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <h1>ACC College Football Week 6 </h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Results</a></li>
+      <li><a href="stats.html" id="nav_selected">Stats</a></li>
+      <li><a href="standings.html">Standings</a></li>
+      <li><a href="signup.html">Signup</a></li>
+    </ul>
+  </nav>
+  <h2>Upcoming Games</h2>
+  <div id="map_controls">
+    <form action="test.html" method="post">
+      <div>
+        <div>
+          <label for="duke_lou" class="cb_label_align">Duke/Louisville</label>
+          <input type="checkbox" class="cb_align" id="duke_lou">
+        </div>
+        <div>
+          <label for="ncst_clem" class="cb_label_align">NC State/Clemson</label>
+          <input type="checkbox"  class="cb_align" id="ncst_clem">
+        </div>
+        <div>
+          <label for="gast_gt" class="cb_label_align">GA Southern/Georgia Tech</label>
+          <input type="checkbox"  class="cb_align" id="gast_gt">
+        </div>
+        <div>
+          <label for="pitt_uva" class="cb_label_align">Pitt/UVa</label>
+          <input type="checkbox"  class="cb_align" id="pitt_uva">
+        </div>
+        <div>
+          <label for="unc_mia" class="cb_label_align">UNC/Miami</label>
+          <input type="checkbox"  class="cb_align" id="unc_mia">
+        </div>
+        <div>
+          <label for="wf_fsu" class="cb_label_align">Wake Forest/FSU</label>
+          <input type="checkbox" class="cb_align"  id="wf_fsu">
+        </div>
+        <div>
+          <label for="vt_syr" class="cb_label_align">Virginia Tech/Syracuse</label>
+          <input type="checkbox"  class="cb_align" id="vt_syr">
+        </div>
+      </div>
+    </form>
+    <div id="button_div">
+      <button id="find">Find</button>
+      <button id="clear">Clear</button>
+    </div>
+  </div>
+  <div id="map">
+    <canvas height="888" width="1611" id="map_canvas"></canvas>
+  </div>
+  <footer>
+    Doug Bradley
+    DGMDE-20
+    Assignment 3
+    Due 11/18/2016
+  </footer>
+  <!-- javascript -->
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jcanvas/16.7.3/jcanvas.js"></script>
+  <script src="assignment3.jcanvas.js"></script>
+</body>
+</html>

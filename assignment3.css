@@ -137,10 +137,23 @@ table caption {
 .error {
 	color: red;
 }
-#submit_div {
+#submit_div, #button_div {
 	margin-top: 2em;
 }
-
+#map_controls {
+	width: 20%;
+	float: left;
+}
+#map {
+	width: 80%;
+	float: right;
+}
+#map_canvas {
+	width: 907px;
+	height: 500px;
+	border-width: 1px;
+	border-style: solid;
+}
 footer {
 	font-style: italic;
 	padding-top: 1.5em;
