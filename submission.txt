@@ -25,7 +25,7 @@ The line numbers in the JavaScript file where this code is found are: lines 54 t
 
 My effect that requires filtering the results is: The text of a table's last row is changed to red on hover
 Located at this HTML URL: http://a3.dougdgmde20.host/standings.html
-The line numbers in the JavaScript file where this code is found are: line 44 through 51
+The line numbers in the JavaScript file where this code is found are: lines 44 through 51
 
 Two more effects of my choice are:  slightly dimming two table elements when the page is loaded
 (in preparation for further emphasis processing) and highlighting table rows on hover.
@@ -36,12 +36,13 @@ The line numbers in the JavaScript file where this code is found are:
 
 Part 2
 
-The <canvas> element on my site occurs at this HTML URL: ____
+The <canvas> element on my site occurs at this HTML URL: http://a3.dougdgmde20.host/gamemap.html
 A button that, when clicked, clears the entire canvas or part of the canvas
-The line numbers in the JavaScript file where this code is found are: ______
+The line numbers in the JavaScript file where this code is found are: file assignment3.jcanvas.js,
+  line 86
 At least two different elements drawn on the canvas when a button is clicked
-The line numbers in the JavaScript file where this code is found are: _____
+The line numbers in the JavaScript file where this code is found are: lines 65 through 80 (within loop)
 Chaining methods
-The line numbers in the JavaScript file where this code is found are: ______
+The line numbers in the JavaScript file where this code is found are: also lines 65 through 80
 A form element on the page that accepts some kind of user input
-The line numbers in the JavaScript file where this code is found are: ______
+The line numbers in the JavaScript file where this code is found are: lines 26 through 60
