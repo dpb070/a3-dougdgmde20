@@ -3,7 +3,9 @@ $(document).ready(function(){
   // DGMDE20
   // Assignment 3
 
-  // alert('js OK');
+  // initialize map on canvas
+  // Note:  page suffers from what seems to be a jCanvas bug - if the mouse
+  // enters and leaves the canvas area, the labels will disappear.
   $('#map_canvas').drawImage({
     source: 'maps-us-states-02_50.png',
     layer: true,
@@ -14,8 +16,9 @@ $(document).ready(function(){
 
 
   // draw selected games on map
+  // x,y coord determined by trial and error
   $('#find').click(function(){
-    var xOffset = 20;
+    var xOffset = 20;  // offset label away from marker
     // build list of games to map
     var labels = [];
     var xCoord = [];
